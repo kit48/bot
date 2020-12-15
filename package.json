@@ -1,0 +1,44 @@
+{
+  "name": "el-bot-template",
+  "version": "0.0.2",
+  "description": "el-bot 的快速启动模版",
+  "private": true,
+  "main": "bot/index.js",
+  "mirai": {
+    "folder": "mirai"
+  },
+  "scripts": {
+    "bot": "nodemon --exec el bot",
+    "dev": "nodemon --exec el bot",
+    "mirai": "cd mirai && java -jar mirai-console-wrapper-1.3.0.jar --update KEEP",
+    "start": "el start",
+    "start:bot": "el start bot",
+    "start:mirai": "el start mirai",
+    "install:mirai": "el install mirai",
+    "lint": "eslint --fix . && prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElpsyCN/el-bot-template.git"
+  },
+  "author": {
+    "name": "YunYouJun",
+    "email": "me@yunyoujun.cn",
+    "url": "https://www.yunyoujun.cn"
+  },
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ElpsyCN/el-bot-template/issues"
+  },
+  "homepage": "https://github.com/ElpsyCN/el-bot-template#readme",
+  "dependencies": {
+    "el-bot": "0.5.11"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.14.0",
+    "nodemon": "^2.0.6",
+    "prettier": "^2.1.2"
+  }
+}
