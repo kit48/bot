@@ -12,23 +12,6 @@ plugins:
   custom:
     - ./bot/test
 
-rss:
-  - name: 云游君的小站
-    url: https://www.yunyoujun.cn/atom.xml
-    # cron: "*/1 * * * *"
-    customFields:
-      item:
-        - updated
-        - summary
-    content:
-      - 标题：${item.title}
-      - 链接：${item.link}
-      - 时间：${item.updated}
-    target:
-      group:
-        # El Psy Congroo
-        - 707408530
-
 # 消息应答
 answer:
   - re: 早呀|早上|哦哈呦|起床啦

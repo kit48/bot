@@ -3,7 +3,7 @@
   "version": "0.0.2",
   "description": "el-bot 的快速启动模版",
   "private": true,
-  "main": "bot/index.js",
+  "main": "bot/index.ts",
   "mirai": {
     "folder": "mirai"
   },
@@ -39,6 +39,8 @@
     "eslint": "^7.11.0",
     "eslint-config-prettier": "^6.14.0",
     "nodemon": "^2.0.6",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
   }
 }

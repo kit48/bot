@@ -1,9 +1,10 @@
-const Bot = require("el-bot");
-const el = require("../el");
+import Bot from "el-bot";
 
-const bot = new Bot(el);
+import config from "../el";
+
+const bot = new Bot(config);
 // bot.start()
-bot.start((msg) => {
+bot.start((msg: any) => {
   console.log(msg);
 });
 
