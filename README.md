@@ -5,3 +5,4 @@
 ## 新增特性
 
 - 项目 TS 化，基于 TypeScript 开发
+- 统一在 plugins 下业务逻辑

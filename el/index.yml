@@ -10,7 +10,10 @@ plugins:
   #   - hitokoto
   #   - niubi
   custom:
-    - ./bot/test
+    - ./plugins/hello
+
+master:
+  - 977501258
 
 # 消息应答
 answer:
