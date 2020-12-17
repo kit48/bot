@@ -13,7 +13,7 @@ plugins:
     - ./plugins/hello
 
 master:
-  - 977501258
+  - 987654321
 
 # 消息应答
 answer:

@@ -2,6 +2,7 @@
 tmp
 nohup.out
 .vscode
+el/config.yml
 
 # MiraiOK
 miraiOK_*

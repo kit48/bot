@@ -17,7 +17,7 @@ const elConfig: El = {
     uri: process.env.BOT_DB_URI,
     analytics: true,
   },
-  config: utils.config.parse(path.resolve(__dirname, "./index.yml")),
+  config: utils.config.parse(path.resolve(__dirname, "./config.yml")),
   webhook: {
     enable: true,
     path: "/webhook",
